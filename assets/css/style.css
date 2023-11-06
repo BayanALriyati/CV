@@ -110,8 +110,13 @@ header {
     width: 100%;
 }
 
-.header_content img {
-    width: 150px;
+.brand h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--bg-light);
+}
+.brand h2 span {
+    color: var(--title-color);
 }
 
 .header_content ul {

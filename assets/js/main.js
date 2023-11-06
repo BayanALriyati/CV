@@ -154,7 +154,7 @@ particlesJS.load("particles-js", "assets/particles.json", function () {
   
   // Typed.js ==========
   var typed = new Typed("#typed", {
-    strings: ["Web Developer", "Designer", "Photographer"],
+    strings: [ "Full Stack Developer", "Web Developer"],
     typeSpeed: 70,
     backSpeed: 100,
     backDelay: 700,
