@@ -484,6 +484,7 @@ header {
 .about-content .left-details img {
     width: 500px;
     height: auto;
+    border-radius: 0%;
 }
 
 .about-content .left-details .project,
