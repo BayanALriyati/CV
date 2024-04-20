@@ -886,6 +886,17 @@ header {
     }
 }
 
+@media only screen and (max-width: 457px) and (min-width: 276px) {
+    .filter-portfolio {
+        text-align: center;
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        column-gap: 0px;
+        font-size: 14px;
+    }
+}
+
 
 
 /* =============== resume =============== */
