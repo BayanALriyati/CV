@@ -660,7 +660,7 @@ header {
     margin: 40px 0;
     display: flex;
     justify-content: center;
-    column-gap: 1px;
+    column-gap: 0px;
     font-size: 14px;
 }
 
