@@ -660,7 +660,7 @@ header {
     margin: 40px 0;
     display: flex;
     justify-content: center;
-    column-gap: 0px;
+    column-gap: 15px;
     font-size: 14px;
 }
 
@@ -866,7 +866,27 @@ header {
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+    .filter-portfolio {
+        text-align: center;
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        column-gap: 0px;
+        font-size: 14px;
+    }
 }
+@media only screen and (max-width: 640px) and (min-width: 458px) {
+    .filter-portfolio {
+        text-align: center;
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        column-gap: 0px;
+        font-size: 14px;
+    }
+}
+
+
 
 /* =============== resume =============== */
 .resume .container {
