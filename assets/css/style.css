@@ -1217,6 +1217,15 @@ header {
                 .resume-item{
                     margin-top: 30px;
                 }
+                .filter-portfolio {
+                    text-align: center;
+                    margin: 40px 0;
+                    display: flex;
+                    justify-content: center;
+                    column-gap: 0px;
+                    font-size: 14px;
+                }
+                
             
             }
 
