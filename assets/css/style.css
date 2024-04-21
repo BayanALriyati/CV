@@ -178,7 +178,7 @@ header {
         position: absolute;
         top: 79px;
         right: -200px;
-        background: #fff;
+        background: var(--main-color);
         flex-direction: column;
         width: 200px;
         height: 400px;
@@ -186,6 +186,7 @@ header {
         row-gap: 20px;
         transition: .4s;
     }
+
     .menu-active {
         right: 0;
     }
