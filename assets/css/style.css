@@ -1187,6 +1187,39 @@ header {
         
         }
 
+        @media only screen and (max-width: 460px) and (min-width: 200px)  {
+            .resume .container {
+                display: grid;
+                column-gap: 100px;
+                padding-top: 70px;
+                position:static;
+            }
+            
+            .resume .container .sidebar {
+                    display: flex;
+                    background: var(--main-color);
+                    height: 100px;
+                    padding: 50px 50px;
+                    border-radius: 20px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+                    position:static;
+                    left: 0;
+                    flex-wrap: wrap;
+                    align-content: flex-end;
+                    justify-content: space-between;
+                    margin: auto;
+                }
+                .resume .container .sidebar a {
+                    display: block;
+                    color: var(--bg-light);
+                    transition: .3s;
+                }
+                .resume-item{
+                    margin-top: 30px;
+                }
+            
+            }
+
 /* ============== contact =============== */
 .contact .container {
     display: flex;
