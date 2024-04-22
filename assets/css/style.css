@@ -1228,6 +1228,12 @@ header {
                     column-gap: 0px;
                     font-size: 14px;
                 }
+
+                .skills-container {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 3px;
+                }
                 
             
             }
