@@ -1216,8 +1216,8 @@ header {
                     transition: .3s;
                 }
                 .resume-item{
-                    margin-top: 30px;
-                    width: 100%;
+                    margin: 30px auto;
+                    width: 90%;
 
                 }
                 .filter-portfolio {
