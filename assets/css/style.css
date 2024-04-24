@@ -1230,7 +1230,16 @@ header {
                     display: flex;
                     justify-content: space-around;
                     column-gap: 0px;
-                    font-size: 10px;
+                    font-size: 5px;
+                }
+
+                .filter-portfolio button {
+                    cursor: pointer;
+                    padding: 5px 4px;
+                    border: none;
+                    background: transparent;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
                 }
 
                 .skills-container {
