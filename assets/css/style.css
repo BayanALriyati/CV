@@ -504,10 +504,85 @@ header {
         max-width:400px;
         display: none;
     }
+
+    .content_home {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 200px;
+    }
+    
+    .content_home .left-details h4{
+        color: var(--main-color);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content_home .left-details h2 {
+        margin: 10px 0 20px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .content_home .left-details h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .content_home .left-details p {
+        margin: 20px 0 30px;
+        text-align: center;
+    }
+    
+    /* .content_home .left-details .btn {
+        margin: 20px 0 30px;
+        text-align: center;
+    } */
+
+    .container .btn {
+        background-color: var(--main-color);
+        border-radius: 50px;
+        color: #fff;
+        border: none;
+        padding: 15px 38px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin: 1px 177px;
+    }
 }
 @media only screen and (max-width: 498px) {
     .content_home .left-details h1 {
         font-size: 35px;
+    }
+
+    .content_home {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 200px;
+    }
+
+    .content_home .left-details h4{
+        color: var(--main-color);
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content_home .left-details h2 {
+        margin: 10px 0 20px 0;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .content_home .left-details h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .content_home .left-details p {
+        margin: 20px 0 30px;
+        text-align: center;
     }
 }
 
@@ -1164,25 +1239,27 @@ header {
 
 @media only screen and (max-width: 992px) {
     .resume .container {
-        display: grid;
-        column-gap: 100px;
+        display: flex;
+        column-gap: 70px;
         padding-top: 70px;
         position:static;
     }
     
+    
     .resume .container .sidebar {
-            display: flex;
             background: var(--main-color);
-            height: 100px;
-            padding: 50px 50px;
+            height: 280px;
+            padding: 70px 50px;
             border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, .1);
             position:static;
             left: 0;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             align-content: flex-end;
             justify-content: space-between;
         }
+
+        
         .resume .container .sidebar a {
             display: block;
             color: var(--bg-light);
@@ -1190,6 +1267,7 @@ header {
         }
         .resume-item{
             margin-top: 30px;
+            margin-right: 15px;
         }
     
     }
