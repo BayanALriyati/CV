@@ -278,10 +278,12 @@ header {
 .home {
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
 .home .container {
     height: 100%;
+    width: 100%;
 }
 
 .content_home {
@@ -950,11 +952,16 @@ header {
 
 
 /* =============== resume =============== */
+.resume-item {
+    width: 100%;
+}
+
 .resume .container {
     display: flex;
     column-gap: 100px;
     padding-top: 70px;
     position: relative;
+    width: 100%;
 }
 
 .resume .container .sidebar {
@@ -998,8 +1005,12 @@ header {
 
 .resume-item {
     margin-bottom: 80px;
+    width: 100%;
 }
-
+.resume .main-content {
+    
+    width: 100%;
+}
 .resume .main-content .title {
     font-size: 25px;
     margin-bottom: 30px;
@@ -1030,7 +1041,7 @@ header {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: absolute;
-    left: 45px;
+    left: 20px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -1513,17 +1524,32 @@ footer .social-icon a {
 } */
 
 @media only screen and (max-width: 654px) and (min-width: 200px)  {
+    .home {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .home .container {
+        height: 100%;
+        width: 100%;
+    }
+    .resume{
+width: 100%;
+    }
     .resume .container {
         display: grid;
-        column-gap: 100px;
         padding-top: 70px;
         position:static;
+    } .resume .main-content {
+    
+        width: 100%;
     }
     
     .resume .container .sidebar {
         display: flex;
         background: var(--main-color);
-        height: 110px;
+        height: 100%;
         padding: 50px 20px;
         border-radius: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, .1);
@@ -1542,12 +1568,19 @@ footer .social-icon a {
         }
         .resume-item{
             margin: 30px auto;
-            width: 90%;
+            width: 100%;
 
+        }
+
+        .resume .main-content {
+    
+            width: 100%;
         }
 
         .resume .main-content .box {
             padding: 30px 21px 30px 84px;
+            /* display:flex; */
+            width: 100%;
         }
         .portfolio-container {
             grid-template-columns: 1fr;
@@ -1573,8 +1606,9 @@ footer .social-icon a {
         }
         
         .resume .main-content .box::before {
-            left: 15px;
+            left: 30px;
         }
+      
         .contact .container .left-details {
             width: 100%;
             padding-top: 100px;
