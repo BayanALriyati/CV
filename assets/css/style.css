@@ -602,7 +602,7 @@ header {
 /* ============ about ============ */
 .about {
     padding-top: 150px;
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .about-content {
     display: flex;
