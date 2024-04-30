@@ -1521,20 +1521,20 @@ footer .social-icon a {
     }
     
     .resume .container .sidebar {
-            display: flex;
-            background: var(--main-color);
-            height: 110px;
-            padding: 50px 50px;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-            position:static;
-            left: 0;
-            flex-wrap: nowrap;
-            align-content: flex-end;
-            justify-content: space-between;
-            margin: auto;
-            gap: 30px;
-        }
+        display: flex;
+        background: var(--main-color);
+        height: 110px;
+        padding: 50px 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        position: static;
+        left: 0;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: space-between;
+        margin: auto;
+        gap: 25px;
+    }
         .resume .container .sidebar a {
             display: block;
             color: var(--bg-light);
