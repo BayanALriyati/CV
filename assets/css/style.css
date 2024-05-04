@@ -47,14 +47,14 @@ section {
 .container {
     max-width: 1200px;
     padding: 0 79px;
-    margin: auto;
+    margin: 0;
 }
 
-@media only screen and (max-width: 498px) {
+/* @media only screen and (max-width: 498px) {
     .container {
         padding: 0 15px !important;
     }
-}
+} */
 
 .btn {
     background-color: var(--main-color);
@@ -386,7 +386,7 @@ header {
     }
     
     .container {
-        padding: 0 0px;
+        padding: 0 45px;
     }
     .content_home .right-details>img {
         width: 620px;
@@ -1198,7 +1198,7 @@ footer .social-icon a {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 568px) {
+/* @media only screen and (max-width: 568px) {
     footer .list ul li a,
     footer .copyright {
         font-size: 13px;
@@ -1206,8 +1206,8 @@ footer .social-icon a {
     footer .copyright .social-icon a {
         font-size: 14px;
     }
-}
-
+} */
+/* 
 @media only screen and (max-width: 498px) {
     footer .list ul li a {
         font-size: 11px;
@@ -1221,7 +1221,7 @@ footer .social-icon a {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 40px;
     }
-}
+} */
 
 @media only screen and (max-width: 768px) {
 
@@ -1308,8 +1308,17 @@ footer .social-icon a {
 }
 
 @media only screen and (max-width: 654px) and (min-width: 200px)  {
-    .home {
+    html {
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        padding: 0 79px;
         margin: 0;
+    }
+    .home {
+        /* margin: 0; */
         height: 100%;
         width: 100%;
     }
@@ -1319,7 +1328,7 @@ footer .social-icon a {
         width: 100%;
     }
     .resume{
-width: 100%;
+        width: 100%;
     }
     .resume .container {
         display: grid;
@@ -1402,6 +1411,27 @@ width: 100%;
         width: 100%;
         padding: 30px 0;
         background: var(--main-color);
+    }
+/* 
+    footer .list ul li a,
+    footer .copyright {
+        font-size: 13px;
+    }
+    footer .copyright .social-icon a {
+        font-size: 14px;
+    } */
+    footer .list ul li a {
+        font-size: 11px;
+    }
+    .copyright {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    footer .list ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+        height: 100%;
     }
 
     }
