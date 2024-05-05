@@ -125,32 +125,7 @@ particlesJS.load("particles-js", "assets/particles.json", function () {
   }
   
   window.addEventListener("scroll", scrollResume);
-  
-  /* ============ Active card testimonial ============= */
-  let cardsTest = document.querySelectorAll(".testimonial .card");
-  
-  function activeCard() {
-    cardsTest.forEach((card) => card.classList.remove("active-card"));
-    this.classList.add("active-card");
-  }
-  
-  cardsTest.forEach((card) => card.addEventListener("click", activeCard));
-  
-  /* ============ Active card testimonial ============= */
-  let dataId = cardsTest.forEach((card) => card.getAttribute("data-id"));
-  let texts = document.querySelectorAll(".testimonial .text");
-  let textId = texts.forEach((text) => text.getAttribute("id"));
-  
-  function textActive() {
-    texts.forEach((text) => text.classList.remove("active-text"));
-    let current = this.getAttribute("data-id");
-    document
-      .querySelector(".testimonial .text[id*=" + current + "]")
-      .classList.add("active-text");
-  }
-  
-  cardsTest.forEach((card) => card.addEventListener("click", textActive));
-  
+
   
   // Typed.js ==========
   var typed = new Typed("#typed", {
@@ -167,4 +142,5 @@ particlesJS.load("particles-js", "assets/particles.json", function () {
   
   menuBar.addEventListener('click', () => {
     navMenu.classList.toggle('menu-active');
+  
   })
